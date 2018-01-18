@@ -81,7 +81,7 @@ var script = {
 		"notify Welcome",
 		{
 			"Input": {
-				"Text": "What is your name?",
+				"Text": "What is your real name?",
 				"Validation": function (input) {
 					return input.trim().length > 0;
 				},
